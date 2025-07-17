@@ -1,12 +1,84 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dreamy single-page portfolio website built with React, inspired by the psychological horror RPG OMORI. Features typewriter animations, smooth transitions, and a minimalist white space aesthetic.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎬 Custom typewriter animation with skippable text
+- 🎯 Keyboard-controlled navigation (Arrow keys/WASD)
+- 🌌 OMORI-inspired floating UI elements and soft transitions
+- 🖼️ Responsive design with mobile support
+- ⚡ Fast load times with Vite
+- 🎨 Pixel art aesthetic using VT323 font
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI framework
+- **Framer Motion** — Animation library
+- **Tailwind CSS** — Styling
+- **Vite** — Build tool
+- **Lucide React** — Icons
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/omori-portfolio.git
+cd omori-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable components
+│   ├── homecomponent.jsx
+│   ├── navbar.jsx
+│   └── typewriter.jsx
+├── pages/              # Page components
+│   ├── about.jsx
+│   ├── home.jsx
+│   └── projects.jsx
+├── styles/             # CSS files
+│   ├── styles.css
+│   └── typewriter.css
+├── App.jsx            # Main app component
+└── main.jsx          # Entry point
+```
+
+## 🎮 Navigation
+
+- Use **Arrow Keys** or **WASD** to navigate between sections
+- Press **Enter** to select a section
+- Click anywhere to skip typewriter animations
+
+## 🎨 Design Philosophy
+
+This portfolio draws inspiration from OMORI's WHITE SPACE, featuring:
+- Minimalist black and white design
+- Pixel art typography (VT323 font)
+- Floating animations
+- Typewriter text effects
+- Glitch hover effects
+
+## 🔜 Future Plans
+
+- [ ] Add background music toggle
+- [ ] Implement more OMORI-inspired transitions
+- [ ] Add loading screen animations
+- [ ] Resposive design
+- [ ] Expand project showcase section
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
