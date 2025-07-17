@@ -1,0 +1,18 @@
+@keyframes typingEffect {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid black;
+  font-size: 2.5rem;
+  text-shadow: 0.5px 0 currentColor, -0.5px 0 currentColor;
+  display: inline-block;
+}
