@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio (WIP)
 
 A dreamy single-page portfolio website built with React, inspired by the psychological horror RPG OMORI. Features typewriter animations, smooth transitions, and a minimalist white space aesthetic.
 
@@ -7,7 +7,6 @@ A dreamy single-page portfolio website built with React, inspired by the psychol
 - 🎬 Custom typewriter animation with skippable text
 - 🎯 Keyboard-controlled navigation (Arrow keys/WASD)
 - 🌌 OMORI-inspired floating UI elements and soft transitions
-- 🖼️ Responsive design with mobile support
 - ⚡ Fast load times with Vite
 - 🎨 Pixel art aesthetic using VT323 font
 
@@ -76,7 +75,7 @@ This portfolio draws inspiration from OMORI's WHITE SPACE, featuring:
 - [ ] Add background music toggle
 - [ ] Implement more OMORI-inspired transitions
 - [ ] Add loading screen animations
-- [ ] Resposive design
+- [ ] Improve Resposive design
 - [ ] Expand project showcase section
 
 ## 📄 License
